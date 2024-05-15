@@ -7,9 +7,24 @@ img {
   height: 100px;
 }
 
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  height: max-content;
+  flex: 0 1 auto;
+  align-items: center;
+}
+
+.cards {
+  flex: auto;
+  display: flex;
+  gap: 52px;
 }
 
 /* do not edit this footer */
